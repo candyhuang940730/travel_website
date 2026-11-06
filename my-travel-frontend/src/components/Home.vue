@@ -210,6 +210,7 @@ watch(() => props.initialCategory, (newCat) => {
         </select>
       </div>
     </div>
+  </div>
 
     <!-- ☠️ 骨架屏 Skeleton Loading (取代原本乾巴巴的轉圈圈) -->
     <div v-if="loading" class="grid-layout">
